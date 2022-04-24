@@ -62,12 +62,6 @@
   max-width: 456px;
 }
 
-.place__name {
-  font-size: 18px;
-  line-height: 1.22;
-  margin: 0;
-}
-
 .place__descriptions {
   grid-area: description;
   max-width: 484px;
@@ -95,7 +89,6 @@
   text-decoration: none;
   background-color: #0278fe;
   transition: background-color 0.5s ease-in-out;
-  grid-area: button;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
