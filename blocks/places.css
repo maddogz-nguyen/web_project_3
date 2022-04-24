@@ -155,8 +155,7 @@
   .place__image {
     grid-area: image;
     max-height: 320px;
-    width: 100%;
-    max-width: 100vw;
+    max-width: 100%;
   }
 
   .place__label {
