@@ -17,10 +17,6 @@
     "button description";
 }
 
-.place:last-of-type {
-  padding-bottom: 0;
-}
-
 .place__title {
   font-size: 72px;
   line-height: 1.06;
