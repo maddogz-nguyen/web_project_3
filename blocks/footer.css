@@ -1,0 +1,28 @@
+.footer {
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  padding-top: 92px;
+  padding-bottom: 24px;
+}
+
+.footer__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    padding-top: 88px;
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .footer {
+    line-height: 1;
+    padding-top: 64px;
+    padding-bottom: 24px;
+  }
+}
