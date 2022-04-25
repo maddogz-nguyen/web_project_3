@@ -1,7 +1,6 @@
 .intro {
   padding-top: 92px;
   max-width: 785px;
-  margin: 0 347px 0 148px;
 }
 
 .intro__title {
@@ -44,11 +43,9 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .intro {
     padding-top: 88px;
-    max-width: 768px;
-    margin: 0 24px 0 24px;
   }
 
   .intro__quote {
@@ -73,10 +70,9 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .intro {
     padding-top: 64px;
-    margin: 0 16px 90px 16px;
     max-width: 288px;
   }
 

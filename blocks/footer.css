@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 500px) {
   .footer {
     line-height: 1;
     padding-top: 64px;
