@@ -35,7 +35,7 @@
 
 .place__image {
   grid-area: image;
-  width: 100%;
+  max-width: 100%;
   object-fit: cover;
   max-height: 460px;
   margin: 0;
@@ -75,7 +75,7 @@
   border-radius: 4px;
   border-style: none;
   padding: 13px 20px;
-  width: fit-content;
+  max-width: fit-content;
   height: min-content;
   font-size: 18px;
   line-height: 1.21;
@@ -155,7 +155,8 @@
   .place__image {
     grid-area: image;
     max-height: 320px;
-    max-width: 100%;
+    max-width: 320px;
+    object-fit: cover;
   }
 
   .place__label {
