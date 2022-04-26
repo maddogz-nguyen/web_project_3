@@ -5,6 +5,7 @@
 - Intro
 - Figma
 - Technologies
+- Link to GitHub
 - Future Considerations
 
 **Intro**
@@ -22,6 +23,9 @@ This is the 3rd project of the Software Engineering program at Practicum. This p
 - BEM
 - Hover elements
 - Responsive design
+
+**GitHub**
+https://github.com/maddogz-nguyen/web_project_3.git
 
 **Future Considerations**  
 Consider adding additional breakpoint for smoother transitions.
