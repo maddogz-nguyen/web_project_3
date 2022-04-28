@@ -1,9 +1,9 @@
 .places {
-  margin: 0 148px 0 148px;
   display: flex;
   flex-direction: column;
   row-gap: 80px;
   max-width: 987px;
+  margin: 0 auto;
 }
 
 .place {
@@ -24,6 +24,7 @@
   max-width: 460px;
   grid-area: title;
   margin: 0;
+  align-self: end;
 }
 
 .place__name {
@@ -101,14 +102,13 @@
 
 @media screen and (max-width: 1100px) {
   .places {
-    margin: 0 24px 0 24px;
     padding-top: 88px;
-    max-width: 100%;
+    max-width: 720px;
   }
 
   .place {
     max-width: 768px;
-    grid-gap: 48px 28px;
+    grid-gap: 46px 28px;
     grid-template-columns: repeat (2, 1fr);
     padding-bottom: 0;
   }
@@ -116,6 +116,7 @@
   .place__title {
     font-size: 42px;
     line-height: 1.09;
+    max-width: 340px;
   }
 
   .place__description {
@@ -129,10 +130,10 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .places {
-    margin: 0;
-    padding-top: 62px;
+    max-width: 320px;
+    padding-top: 60px;
   }
 
   .place {

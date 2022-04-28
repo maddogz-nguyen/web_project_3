@@ -1,11 +1,12 @@
 .lead {
-  padding-top: 90px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 984px;
   align-items: center;
+  margin: 0 auto;
+  max-width: 984px;
 }
 
 .lead__title {
@@ -14,6 +15,7 @@
   font-weight: 900;
   line-height: 1.04;
   margin: 0 auto;
+  padding-top: 91px;
 }
 
 .lead__subtitle {
@@ -32,40 +34,25 @@
 }
 
 @media screen and (max-width: 768px) {
-  .lead {
-    max-width: cover;
-    padding-top: 91px;
-  }
-
   .lead__title {
     max-width: 720px;
-    font-size: 40px;
-    line-height: 1.1;
-    padding-bottom: 15.89px;
+    padding-top: 91px;
     margin: 0 auto;
   }
 
   .lead__subtitle {
     padding-bottom: 36px;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .lead {
-    padding-top: 50.89px;
-    padding-bottom: 16px;
-  }
-
-  .lead__image {
-    object-fit: cover;
-    max-width: 320px;
-  }
-
   .lead__title {
     max-width: 288px;
+    padding-bottom: 16px;
     font-size: 40px;
     line-height: 1.1;
-    padding-bottom: 15.89px;
+    padding-top: 50.89px;
   }
 
   .lead__subtitle {
