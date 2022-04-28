@@ -43,7 +43,7 @@
   }
 
   .photo-grid__list {
-    grid-gap: 12px;
+    gap: 12px;
   }
 
   .photo-grid__item-item {
