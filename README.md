@@ -25,8 +25,9 @@ This is the 3rd project of the Software Engineering program at Practicum. This p
 - Responsive design
 
 **GitHub**
-https://github.com/maddogz-nguyen/web_project_3.git
-https://maddogz-nguyen.github.io/web_project_3/
+
+- https://github.com/maddogz-nguyen/web_project_3.git
+- https://maddogz-nguyen.github.io/web_project_3/
 
 **Future Considerations**  
 Consider adding additional breakpoint for smoother transitions.

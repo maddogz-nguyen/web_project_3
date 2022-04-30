@@ -21,7 +21,6 @@
 
 .place__name {
   margin: 0;
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
 }
@@ -59,7 +58,6 @@
 
 .place__description {
   font-size: 18px;
-  font-weight: 400;
   line-height: 1.63;
   margin: 0;
   padding-bottom: 25px;
@@ -102,7 +100,6 @@
     max-width: 768px;
     gap: 46px 28px;
     grid-template-columns: repeat (2, 1fr);
-    padding-bottom: 0;
   }
 
   .place__title {
@@ -116,7 +113,6 @@
   }
 
   .place__image {
-    width: 100%;
     max-height: 340px;
   }
 }

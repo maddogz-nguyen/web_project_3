@@ -45,10 +45,4 @@
   .photo-grid__list {
     gap: 12px;
   }
-
-  .photo-grid__item-item {
-    max-width: 100%;
-    object-fit: cover;
-    padding: 0;
-  }
 }

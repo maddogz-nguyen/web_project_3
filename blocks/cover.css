@@ -1,5 +1,5 @@
 .cover {
-  margin: 0 48px 0 48px;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1184px;
@@ -14,58 +14,6 @@
   padding-bottom: 0;
   padding-top: 0;
   background-size: cover;
-}
-
-.cover__container {
-  max-width: 656px;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.cover__title {
-  max-width: 656px;
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 1.05;
-  margin: 0;
-  padding-bottom: 32px;
-  align-items: center;
-}
-
-.cover__texts {
-  max-width: 280px;
-  font-size: 18px;
-  line-height: 1.22;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.cover__texts:last-of-type {
-  padding-bottom: 32px;
-}
-
-.cover__button {
-  border-radius: 4px;
-  border-style: none;
-  padding: 13px 20px;
-  max-width: 137px;
-  max-height: 48px;
-  font-size: 18px;
-  line-height: 1.21;
-  font-weight: 600;
-  text-align: center;
-  color: #fff;
-  text-decoration: none;
-  background-color: #0278fe;
-  transition: background-color 0.5s ease-in-out;
-}
-
-.cover__button:hover {
-  background-color: #0063d2;
 }
 
 .cover::before {
@@ -87,9 +35,58 @@
   opacity: 0.8;
 }
 
+.cover__container {
+  max-width: 656px;
+  text-align: center;
+  padding-top: 46px 0;
+  align-items: center;
+}
+
+.cover__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.06;
+  margin: 0;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.cover__texts {
+  max-width: 280px;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.cover__texts:last-of-type {
+  padding-bottom: 32px;
+}
+
+.cover__button {
+  border-radius: 4px;
+  border-style: none;
+  padding: 13px 20px;
+  max-height: 48px;
+  font-size: 18px;
+  line-height: 1.21;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background-color: #0278fe;
+  transition: background-color 0.5s ease-in-out;
+  display: table;
+  margin: 0 auto;
+}
+
+.cover__button:hover {
+  background-color: #0063d2;
+}
+
 @media screen and (max-width: 1100px) {
   .cover {
-    margin: 0;
     min-height: 746px;
   }
 }
@@ -97,14 +94,11 @@
 @media screen and (max-width: 700px) {
   .cover {
     min-height: 254px;
-    width: 100%;
-    object-fit: contain;
   }
 
   .cover__title {
     font-size: 32px;
     line-height: 1.09;
-    padding-top: 46px;
     padding-bottom: 16px;
   }
 
